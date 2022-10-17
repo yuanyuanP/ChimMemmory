@@ -1,4 +1,4 @@
-# Chimemmory
+# ChimMemmory
 Game
 ## About
 
