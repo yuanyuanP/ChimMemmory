@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Chimpanzee Memory Test</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+        <link rel="shortcut icon" href="images/chimpa.jpg">
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="information">
+            <h1>
+                Are you smarter than a chimpanzee?
+            </h1>
+            
+            <p>
+                Mode :
+                <button onclick="modeEasy()">foolish</button>
+                <button onclick="modeNormal()">chimp level</button>
+                <button onclick="modeHard()">sage</button>
+                <button onclick="modeExpert()">philosopher</button>
+                <button onclick="modeHell()">AI only</button>
+            </p>
+            <p>   
+                Memo Time: <input type="number" id="memoTime" step="0.1" min="0.1" max="10" value="1">
+                Number: <input type="number" id="xNumber" step="1" min="1" max="45" value="1">
+                <button onclick="startGame()">Start</button>
+            </p>
+        </div>
+        <p align="center" id="status">Click on "Start"</p>
+        <div class="grid"></div>
+        <div class="information">
+            <h1>Description</h1>
+            <div>
+                <div>This is a test of working memory, made famous by a study that found that chimpanzees consistently outperform humans on this task.</div>
+                <div>In the study, the chimps consistently outperformed humans, and some chimps were able to remember 9 digits over 90% of the time.</div>
+                <img src="images/stat.png">
+            </div>
+            <h1>How to play</h1>
+            <p><a href="https://www.youtube.com/watch?v=qyJomdyjyvM&t=3s" target="blank">Youtube: Are you smarter than a chimp?</a></p> 
+        </div>
+    </body>
+</html>
